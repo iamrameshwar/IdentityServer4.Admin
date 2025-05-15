@@ -1,15 +1,10 @@
 {
   "$schema": "https://mintlify.com/docs.json",
   "name": "Your Project Name",
-  "theme": "mint",
+  "theme": "venus",
   "colors": {
     "primary": "#1abc9c"
   },
-  "logo": {
-    "light": "/logo-light.png",
-    "dark": "/logo-dark.png"
-  },
-  "favicon": "/favicon.png",
   "navigation": {
     "tabs": [
       {
