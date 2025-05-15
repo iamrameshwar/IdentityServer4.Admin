@@ -1,0 +1,25 @@
+{
+  "$schema": "https://mintlify.com/docs.json",
+  "name": "Your Project Name",
+  "theme": "mint",
+  "colors": {
+    "primary": "#1abc9c"
+  },
+  "logo": {
+    "light": "/logo-light.png",
+    "dark": "/logo-dark.png"
+  },
+  "favicon": "/favicon.png",
+  "navigation": {
+    "tabs": [
+      {
+        "tab": "Getting Started",
+        "pages": ["introduction", "quickstart"]
+      },
+      {
+        "tab": "API Reference",
+        "openapi": "https://echo-unity-api.cerebrent.io/swagger/v1/swagger.json"
+      }
+    ]
+  }
+}
