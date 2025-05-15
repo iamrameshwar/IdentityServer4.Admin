@@ -10,16 +10,15 @@
     "dark": "/logo-dark.png"
   },
   "favicon": "/favicon.png",
-  "navigation": {
-    "tabs": [
-      {
-        "tab": "Getting Started",
-        "pages": ["introduction", "quickstart"]
-      },
-      {
-        "tab": "API Reference",
-        "openapi": "https://echo-unity-api.cerebrent.io/swagger/v1/swagger.json"
-      }
-    ]
-  }
+   "navigation": [
+    {
+      "name": "Getting Started",
+      "pages": ["introduction", "setup"]
+    },
+    {
+    
+      "tab": "API Reference",
+      "openapi": "https://echo-unity-api.cerebrent.io/swagger/v1/swagger.json"
+    }
+  ]
 }
