@@ -10,20 +10,16 @@
     "dark": "/logo-dark.png"
   },
   "favicon": "/favicon.png",
-   "navigation": {
-    "tabs": [
-      {
-        "tab": "API Reference",
-        "groups": [
-          {
-            "group": "Endpoints",
-            "openapi": {
-              "source": "https://echo-unity-api.cerebrent.io/swagger/v1/swagger.json",
-              "directory": "api-reference"
-            }
-          }
-        ]
+   "navigation": [
+    {
+      "group": "Getting Started",
+      "pages": ["introduction", "setup"]
+    },
+    {
+      "group": "API Reference",
+      "openapi": {
+        "source": "https://echo-unity-api.cerebrent.io/swagger/v1/swagger.json"
       }
-    ]
-  }
+    }
+  ]
 }
